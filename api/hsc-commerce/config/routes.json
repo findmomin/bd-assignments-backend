@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hsc-commerces",
+      "handler": "hsc-commerce-assignment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hsc-commerces/count",
+      "handler": "hsc-commerce-assignment.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hsc-commerces/:id",
+      "handler": "hsc-commerce-assignment.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hsc-commerces",
+      "handler": "hsc-commerce-assignment.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hsc-commerces/:id",
+      "handler": "hsc-commerce-assignment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hsc-commerces/:id",
+      "handler": "hsc-commerce-assignment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hsc-sciences",
+      "handler": "hsc-science-assignment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hsc-sciences/count",
+      "handler": "hsc-science-assignment.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hsc-sciences/:id",
+      "handler": "hsc-science-assignment.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hsc-sciences",
+      "handler": "hsc-science-assignment.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hsc-sciences/:id",
+      "handler": "hsc-science-assignment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hsc-sciences/:id",
+      "handler": "hsc-science-assignment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

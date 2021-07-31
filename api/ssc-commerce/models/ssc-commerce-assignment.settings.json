@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ssc-commerce",
+  "info": {
+    "name": "SSC Commerce",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "weeks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "weeks.week"
+    }
+  }
+}

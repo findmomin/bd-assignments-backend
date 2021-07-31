@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ssc-commerces",
+      "handler": "ssc-commerce-assignment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ssc-commerces/count",
+      "handler": "ssc-commerce-assignment.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ssc-commerces/:id",
+      "handler": "ssc-commerce-assignment.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ssc-commerces",
+      "handler": "ssc-commerce-assignment.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ssc-commerces/:id",
+      "handler": "ssc-commerce-assignment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ssc-commerces/:id",
+      "handler": "ssc-commerce-assignment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

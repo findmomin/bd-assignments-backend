@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hsc-commerce",
+  "info": {
+    "name": "HSC Commerce",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "weeks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "weeks.week"
+    }
+  }
+}

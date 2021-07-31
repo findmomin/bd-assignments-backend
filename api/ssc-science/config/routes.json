@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ssc-sciences",
+      "handler": "ssc-science.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ssc-sciences/count",
+      "handler": "ssc-science.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ssc-sciences/:id",
+      "handler": "ssc-science.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ssc-sciences",
+      "handler": "ssc-science.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ssc-sciences/:id",
+      "handler": "ssc-science.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ssc-sciences/:id",
+      "handler": "ssc-science.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

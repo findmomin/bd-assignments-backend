@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ssc-artss",
+      "handler": "ssc-arts-assignment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ssc-artss/count",
+      "handler": "ssc-arts-assignment.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ssc-artss/:id",
+      "handler": "ssc-arts-assignment.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ssc-artss",
+      "handler": "ssc-arts-assignment.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ssc-artss/:id",
+      "handler": "ssc-arts-assignment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ssc-artss/:id",
+      "handler": "ssc-arts-assignment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

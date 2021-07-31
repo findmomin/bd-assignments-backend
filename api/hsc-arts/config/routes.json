@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hsc-artss",
+      "handler": "hsc-arts-assignment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hsc-artss/count",
+      "handler": "hsc-arts-assignment.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hsc-artss/:id",
+      "handler": "hsc-arts-assignment.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hsc-artss",
+      "handler": "hsc-arts-assignment.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hsc-artss/:id",
+      "handler": "hsc-arts-assignment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hsc-artss/:id",
+      "handler": "hsc-arts-assignment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

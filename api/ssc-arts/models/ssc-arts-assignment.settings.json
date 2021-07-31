@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ssc-arts",
+  "info": {
+    "name": "SSC Arts",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "weeks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "weeks.week"
+    }
+  }
+}

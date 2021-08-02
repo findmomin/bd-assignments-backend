@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "ssc-arts",
+  "collectionName": "hsc_commerces",
   "info": {
-    "name": "SSC Arts",
-    "description": ""
+    "name": "hsc commerce"
   },
   "options": {
     "increments": true,

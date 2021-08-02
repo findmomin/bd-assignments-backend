@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "ssc-science",
+  "collectionName": "ssc_sciences",
   "info": {
-    "name": "SSC Science",
-    "description": ""
+    "name": "ssc science"
   },
   "options": {
     "increments": true,

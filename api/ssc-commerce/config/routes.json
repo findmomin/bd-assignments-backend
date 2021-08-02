@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/ssc-commerces",
-      "handler": "ssc-commerce-assignment.find",
+      "handler": "ssc-commerce.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/ssc-commerces/count",
-      "handler": "ssc-commerce-assignment.count",
+      "handler": "ssc-commerce.count",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/ssc-commerces/:id",
-      "handler": "ssc-commerce-assignment.findOne",
+      "handler": "ssc-commerce.findOne",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/ssc-commerces",
-      "handler": "ssc-commerce-assignment.create",
+      "handler": "ssc-commerce.create",
       "config": {
         "policies": []
       }
@@ -35,7 +35,7 @@
     {
       "method": "PUT",
       "path": "/ssc-commerces/:id",
-      "handler": "ssc-commerce-assignment.update",
+      "handler": "ssc-commerce.update",
       "config": {
         "policies": []
       }
@@ -43,7 +43,7 @@
     {
       "method": "DELETE",
       "path": "/ssc-commerces/:id",
-      "handler": "ssc-commerce-assignment.delete",
+      "handler": "ssc-commerce.delete",
       "config": {
         "policies": []
       }

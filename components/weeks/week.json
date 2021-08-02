@@ -1,22 +1,20 @@
 {
   "collectionName": "components_weeks_weeks",
   "info": {
-    "name": "Week",
+    "name": "week",
     "icon": "calendar-alt",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "name": {
+    "weekName": {
       "type": "string",
-      "required": true,
-      "unique": false
+      "required": true
     },
     "assignments": {
       "type": "component",
       "repeatable": true,
-      "component": "assignments.assignment",
-      "required": true
+      "component": "assignments.assignments"
     }
   }
 }

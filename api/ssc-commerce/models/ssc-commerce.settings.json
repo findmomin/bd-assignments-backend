@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "ssc-commerce",
+  "collectionName": "ssc_commerces",
   "info": {
-    "name": "SSC Commerce",
-    "description": ""
+    "name": "ssc commerce"
   },
   "options": {
     "increments": true,

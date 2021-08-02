@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/ssc-artss",
-      "handler": "ssc-arts-assignment.find",
+      "handler": "ssc-arts.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/ssc-artss/count",
-      "handler": "ssc-arts-assignment.count",
+      "handler": "ssc-arts.count",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/ssc-artss/:id",
-      "handler": "ssc-arts-assignment.findOne",
+      "handler": "ssc-arts.findOne",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/ssc-artss",
-      "handler": "ssc-arts-assignment.create",
+      "handler": "ssc-arts.create",
       "config": {
         "policies": []
       }
@@ -35,7 +35,7 @@
     {
       "method": "PUT",
       "path": "/ssc-artss/:id",
-      "handler": "ssc-arts-assignment.update",
+      "handler": "ssc-arts.update",
       "config": {
         "policies": []
       }
@@ -43,7 +43,7 @@
     {
       "method": "DELETE",
       "path": "/ssc-artss/:id",
-      "handler": "ssc-arts-assignment.delete",
+      "handler": "ssc-arts.delete",
       "config": {
         "policies": []
       }

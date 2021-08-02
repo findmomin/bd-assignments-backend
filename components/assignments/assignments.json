@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_assignments_assignments",
+  "info": {
+    "name": "assignment",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "assignmentName": {
+      "type": "string",
+      "required": true
+    },
+    "assignment": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assignment-or-answer.answer-or-question"
+    },
+    "answer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "assignment-or-answer.answer-or-question"
+    }
+  }
+}

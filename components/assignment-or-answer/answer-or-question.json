@@ -1,16 +1,15 @@
 {
-  "collectionName": "components_assignments_assignments",
+  "collectionName": "components_answer_or_question_answer_or_questions",
   "info": {
-    "name": "Assignment",
-    "icon": "address-card",
+    "name": "assignmentOrAnswer",
+    "icon": "bible",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "name": {
+    "fileName": {
       "type": "string",
-      "required": true,
-      "unique": false
+      "required": true
     },
     "images": {
       "collection": "file",

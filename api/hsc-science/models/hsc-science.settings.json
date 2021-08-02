@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "hsc-science",
+  "collectionName": "hsc_sciences",
   "info": {
-    "name": "HSC Science",
-    "description": ""
+    "name": "hsc science"
   },
   "options": {
     "increments": true,

@@ -14,12 +14,14 @@
     "assignment": {
       "type": "component",
       "repeatable": true,
-      "component": "assignment-or-answer.answer-or-question"
+      "component": "assignment-or-answer.answer-or-question",
+      "required": true
     },
     "answer": {
       "type": "component",
       "repeatable": true,
-      "component": "assignment-or-answer.answer-or-question"
+      "component": "assignment-or-answer.answer-or-question",
+      "required": true
     }
   }
 }

@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "hsc_arts",
   "info": {
-    "name": "hsc arts"
+    "name": "hsc arts",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,10 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "assignmentName": {
+      "type": "string",
+      "required": true
+    },
     "weeks": {
       "type": "component",
       "repeatable": true,
-      "component": "weeks.week"
+      "component": "weeks.week",
+      "required": true
     }
   }
 }

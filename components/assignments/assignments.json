@@ -7,19 +7,15 @@
   },
   "options": {},
   "attributes": {
-    "assignmentName": {
-      "type": "string",
-      "required": true
-    },
-    "assignment": {
+    "question": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "assignment-or-answer.answer-or-question",
       "required": true
     },
     "answer": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "assignment-or-answer.answer-or-question",
       "required": true
     }
